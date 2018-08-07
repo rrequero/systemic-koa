@@ -137,3 +137,11 @@ new System()
         // Do stuff with components
     })
 ```
+
+## Debugging
+
+You can debug systemic-koa by setting the DEBUG environment variable to systemic-koa:*. 
+
+```
+DEBUG='systemic-koa:*' node index.js
+```
