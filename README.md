@@ -123,11 +123,7 @@ new System()
         server: {
             port: 3000
         },
-        middleware: {
-            cors: {
-                // configuration
-            }
-        }
+        middleware: {}
     })
     .add('app', app()).dependsOn('config')
     .add('middleware.logger', loggerMiddleware()).dependsOn('config', 'app')
