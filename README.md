@@ -22,6 +22,8 @@ new System()
     })
 ```
 
+Available example: [here](https://github.com/rrequero/systemic-koa/tree/master/example)
+
 ## Available middlewares
 
 ### Koa Body middleware
