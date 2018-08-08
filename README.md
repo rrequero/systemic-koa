@@ -6,7 +6,7 @@ A [systemic](https://github.com/guidesmiths/systemic) koa component
 
 ```js
 const System = require('systemic');
-const { server, app } = require('systemic-koa').server;
+const { server, app } = require('systemic-koa');
 const routes = require('./lib/routes');
 
 new System()
